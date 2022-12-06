@@ -1,0 +1,107 @@
+#title {
+    background-color: rgba(72, 3, 3, 0.815);
+}
+
+.container-fluid {
+padding: 3% 15%
+}
+
+h1 {
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+
+h4 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;   
+}
+
+p {
+    color: grey;
+}
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+    color: white;
+}
+
+
+.navbar-brand {
+    font-family: 'Montserrate','sans-serif';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-item {
+    padding: 0 18px;
+    color: white;
+}
+
+.navbar-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Title Image */
+.title-image {
+    width: 50%;
+    position: relative;
+    top: 10px;
+    border-radius: 100%;
+}
+    @media (max-width: 1028px) {
+
+        #title {
+            text-align: center;        }
+        .title-image{
+            position: static;
+            transform: rotate(0);
+        }
+    }
+/* Testimonials Section */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+}
+.carousel-item {
+    height: 24rem;
+    background-color: rgba(72, 3, 3, 0.815);
+}
+
+.resize {
+    width: 225px;
+}
+/* Call to Action Section CTA */
+#cta {
+    background-color: rgba(72, 3, 3, 0.815);
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
